@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'futura', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color:#000;
 
 
@@ -11,45 +11,6 @@ html {
 
     body {
         padding:5rem 0;
-
-      animation: colorchange 30s infinite; /* animation-name followed by duration in seconds*/
-         /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
-    }
-
-    @keyframes colorchange
-    {
-      0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
-    }
-
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-    {
-      0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
-    }
-
-
-
-
-a {
-  text-decoration: none;
-}
-
-
-
-
-.author {font-size:2rem;
-font-family: futura, sans serif;
-grid-column:1/2;
-grid-row:2;
-padding:1rem 0;}
 
 main {
   width: 80vw;
@@ -73,12 +34,6 @@ article {
   line-height:1.5;
 }
 
-.lead-image {
-  grid-column:3 / 8;
-  grid-row:1;
-  padding: 1rem 0;
-
-}
 
 .subhead-module {
   grid-column:2 / 7;
