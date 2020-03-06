@@ -187,10 +187,11 @@ background-color: #BEC1EE;
   display: flex;
   align-items:center;
   justify-content:center;
+  padding: 0;
 }
 
 .sign-up {
-  grid-column: 2/6;
+  grid-column: 8/12;
   grid-row: 3/4;
 }
 .dropdown {
@@ -216,6 +217,31 @@ background-color: #BEC1EE;
   bottom: 4px;
   background-color: white;
   transition: .4s;
+}
+
+.form-box {
+  background-color: white;
+  grid-column: 8 / 14;
+  grid-row: 3 / 4;
+  width:20em;
+  height:30em;
+  display: grid;
+  align-items:center;
+  justify-content:center;
+  padding: 2rem;
+}
+
+.form { 
+  font-size:2.25rem;
+
+}
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
 
 h1 {
