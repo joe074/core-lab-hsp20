@@ -51,7 +51,7 @@ a {
 }
 
 #main-content {
-  grid-column: 8 / 14;
+  grid-column: 2 / 8;
   grid-row:3;
   text-align: left;
 }
@@ -175,7 +175,7 @@ background-color: #BEC1EE;
  margin-left: 35pt;
 }
 
-.button3 {background-color:#BEC1EE;
+.button3 {background-color:#FBFEDE;
   cursor:not-allowed;
 }
 
@@ -191,8 +191,7 @@ background-color: #BEC1EE;
 
 .sign-up {
   grid-column: 2/6;
-  grid-row: 3;
-
+  grid-row: 3/4;
 }
 .dropdown {
   grid-template-column: ;
