@@ -243,6 +243,24 @@ input[type="text"], input[type="password"] {
     border: none;
     background: #f1f1f1;
 }
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #434E59;
+}
+
+.signupbtn {
+    padding: 14px 20px;
+    background-color: #BEC1EE;
+}
+
+element {
+    border: 1px solid #BEC1EE;
+}
 
 h1 {
   font-size:8rem;
