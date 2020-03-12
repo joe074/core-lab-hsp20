@@ -302,8 +302,6 @@ input:checked + .slider {
   grid-column: 8/12;
   grid-row: 3/4;
   background-color: white;
-  border-style: 1pt;
-  border-color: #BEC1EE;
   width:10em
   height: 20em;
   display:grid;
@@ -383,11 +381,10 @@ label {
 .pattern-box{
   margin-top: 40em;
   grid-column: 8/12;
-  grid-row: 2/3;
+  grid-row: 2;
   background-color: white;
   width:10em
   height: 20em;
-  display:inline-block;
   align-items:center;
   justify-content:center;
   padding: 2rem;
