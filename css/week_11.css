@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
 
 html {
-  background-color:#E3E0F5;
+  background-color:#BEC1EE;
 }
 
 
@@ -67,7 +67,7 @@ p, li {
   grid-row:2/3;
   background-color: white;
   height:20%;
-  padding:1rem;
+  padding:2rem;
 }
 .text-container {
   display: flex;
@@ -215,7 +215,7 @@ input {
     transition: .4s;
 }
 input:checked + .slider {
-    background-color: #F2B138;
+    background-color: #CCECEB;
 }
 .slider.round {
     border-radius: 34px;
@@ -233,16 +233,16 @@ input:checked + .slider {
   }
   .loader {
     border: 16px solid #ccc;
-        border-top-color: rgb(204, 204, 204);
+        border-top-color: rgb(80, 92.5, 92.2);
         border-top-style: solid;
         border-top-width: 16px;
     border-radius: 50%;
-    border-top: 16px solid #F2B138;
+    border-top: 16px solid #CCECEB;
     width: 100px;
     height: 100px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-  }
+}
 
 0% {
     -webkit-transform: rotate(0deg);
@@ -318,7 +318,7 @@ input:checked + .slider {
   box-shadow: 3px 3px 2px 1px rgba(111, 111, 111, .2);
 }
 .form { 
-  font-size:2.25rem;
+  font-size:1.5rem;
 
 }
 input[type="text"], input[type="password"] {
@@ -388,8 +388,8 @@ box-shadow: 3px 3px 2px 1px rgba(111, 111, 111, .2);
   grid-column: 9/3;
   grid-row: 3/4;
   background-color: #CCECEB;
-  width:5em
-  height: 10em;
+   width: 12em;
+  height: 25em;
   display:grid;
   align-items:center;
   justify-content:center;
@@ -473,6 +473,9 @@ h5 {
   font-size:1;
 
 
+}
+p {
+  margin:0;
 }
 
 img {

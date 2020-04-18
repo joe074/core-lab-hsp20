@@ -20,14 +20,14 @@
 <div id="textbox">
 
 
-<h2>Design Principles</h2>
+<h2 class="header">Design Principles</h2>
 
 
 <p> We aim to create clean, minimal design that reflects the authentic and nature of our products. Design should attract customers to the quality of our products. 
 
 We create this site to welcome all audiences across the world to access with ease and no complciations. </p>
 
-	<h2>Typography</h2> 
+	<h2 class="header">Typography</h2> 
 	
 	<h3> Didot </h3>
 	<p> Header Text </p> 
@@ -35,16 +35,16 @@ We create this site to welcome all audiences across the world to access with eas
 	<h3 class="sub-text">Avenir</h3>
 	 <p> Content</p>
 
-	<h2> H2 Headline </h2>
-	<h3> H3 Headline </h3>
-	<h4> H4 Headline </h4>
+	<h2 class="header"> H2 Headline </h2>
+	<h3 class="header">  H3 Headline </h3>
+	<h4 class="header">  H4 Headline </h4>
 </div>
 
 
 
 <div id="middle-content">
 			<div align="center">
-			<h2> Colors </h2>
+			<h2 class="header"> Colors </h2>
 		</div>
 	<article class="color-box">
 		
@@ -71,30 +71,34 @@ We create this site to welcome all audiences across the world to access with eas
 	</div>
 
 <div id="color-change">
-	 <h2>Adjustments</h2>
+	 <h2 class="header">Adjustments</h2>
+  <br>
+  <br>
   <br>
         <label>Change Background</label><br>
         <button type="button" style="background-color:#BEC1EE;" onclick="changeBodyBg('#BEC1EE');">Color 1 </button>
         <button type="button" style="background-color:#CCECEB;" onclick="changeBodyBg('#CCECEB');">Color 2</button>
         <button type="button" style="background-color:#7DB6FF;" onclick="changeBodyBg('#7DB6FF');">Color 3</button>
-        <button type="button" style="background-color:#FBFEDE;" onclick="changeBodyBg('#FBFEDE');">Color 4</button>
 <br><br>
-        <label>Change Heading text color</label><br>
-        <button type="button" onclick="changeHeaderColor('#BEC1EE');">WF Gray</button>
-        <button type="button" onclick="changeHeaderColor('#CCECEB');">WF Bright Yellow</button>
-        <button type="button" onclick="changeHeaderColor('#7DB6FF');">WF Light Gray</button>
-        <button type="button" onclick="changeHeaderColor('#FBFEDE');">WF Medium Brown</button>
+       <label>Change Heading text color</label><br>
+        <button type="button" style="background-color:#BEC1EE;"onclick="changeHeaderColor('#BEC1EE');">Color 1</button>
+        <button type="button" style="background-color:#CCECEB;"onclick="changeHeaderColor('#CCECEB');">Color 2</button>
+        <button type="button" style="background-color:#7DB6FF;" onclick="changeHeaderColor('#7DB6FF');">Color 3</button>
+        <button type="button" style="background-color:#D3D3D3;"onclick="changeHeaderColor('black');">Default</button>
+
 <br><br>
 <label>Change Section Background</label><br>
-        <button type="button" onclick="changeSectionBG('#BEC1EE');">Lavender</button>
-        <button type="button" onclick="changeSectionBG('#CCECEB');">Mint Green</button>
-        <button type="button" onclick="changeSectionBG('#7DB6FF');">Blue</button>
-        <button type="button" onclick="changeSectionBG('#FBFEDE');">Light Yellow</button>
+        <button type="button" style="background-color:#BEC1EE;"onclick="changeSectionBG('#BEC1EE');">Color 1</button>
+        <button type="button" style="background-color:#CCECEB;"onclick="changeSectionBG('#CCECEB');">Color 2</button>
+        <button type="button" style="background-color:#7DB6FF;"onclick="changeSectionBG('#7DB6FF');">Color 3</button>
+        <button type="button" style="background-color:#FBFEDE;"onclick="changeSectionBG('#FBFEDE');">Color 4</button>
+          <button type="button" style="background-color:#D3D3D3;"onclick="changeSectionBG('white');">Default</button>
+        
 </div>
 
 
 <div class="left-section">
-<h2> Components</h2>
+<h2 class="header"> Components</h2>
 	<div class="component-group">
 		<div class="cg-1">
 			<button class="button button1">Primary</button>
@@ -113,7 +117,7 @@ We create this site to welcome all audiences across the world to access with eas
 
 		<div class="cg-3">
 			<div class="dropdown">
-				<button class="dropbtn">< Option </button>
+				<button class="dropbtn">Option </button>
 				<div class="dropdown-content">
 					<a href="#"> Link 1 </a>
 					<a href="#"> Link 2 </a>
@@ -139,24 +143,23 @@ We create this site to welcome all audiences across the world to access with eas
 </div>
 </div>
 	<div class="pattern-box">
-		<div align="center">
-	<h2>Design Patterns </h2>
+	
+	<h2 class="header">Design Patterns </h2>
 	<br>
-	<h3>About the creators</h3>
-	</div>	
+
 	<div class="border">
 	<br><br>
-	<img src="https://modernreston.com/wp-content/uploads/2014/11/Official-T.S.E-Photo.jpg">
+	<img src="https://modernreston.com/wp-content/uploads/2014/11/Official-T.S.E-Photo.jpg" style="width:80%; align-items: center">
 	<p> We are proud to be creators of Sequoia which is a proudly indigenous company founded more than a decade ago. The products we create are all inspired by native legends or ingredients provided by mother nature. We consider every bar of our handmade soap as a work of art. </p>
 	</div>
 	<br>
 	<br>
-	<div align="center">
+	
 	<h3> Sign in Form </h3>
-</div>
+
 	<div class="sign-up">
 
-	<form action="/action_page.php" style="border: 1px solid #A66312">
+	<form action="/action_page.php" style="border: 1px solid black">
 		<div class="sign-up-container">
 	<p class="form">Create an Account</p>
 		<hr>
@@ -190,24 +193,21 @@ We create this site to welcome all audiences across the world to access with eas
 
 <article class="right-side">
 	<div align="center">
-<h2>Product info</h2>
+<h2 class="header">Product info</h2>
 </div>
 <br>
 <div id="image-card">
-<img src="https://cdn.prezzybox.com/Images/42067.jpg">
+<img src="https://cdn.prezzybox.com/Images/42067.jpg" style="width:70%;">
 <p> Sequoia mini soaps are perfect for travel, for testing out a new favorite or gifting to a best friend to introduce them to the best soaps on earth! Check out the large soap description for the specifics on each soap. </p>
 </div>
 
 <br><br><br>
 <div id="image-card2">
-<img src="https://cdn.shopify.com/s/files/1/1328/8597/products/20170224141443-01_2048x.jpg?v=1573590420">
+<img src="https://cdn.shopify.com/s/files/1/1328/8597/products/20170224141443-01_2048x.jpg?v=1573590420" style="width:70%;">
 <p> Sequoia mini soaps are perfect for travel, for testing out a new favorite or gifting to a best friend to introduce them to the best soaps on earth! Check out the large soap description for the specifics on each soap.</p>
 </div>
-<br><br>
-<div id="image-card2">
-<img src="https://cdn.shopify.com/s/files/1/1328/8597/products/beautiful_day_bath_bomb_2048x.JPG?v=1480000020">
-<p> Wenniseriio is a Mohawk word meaning beautiful day. That's just what you'll have when you bring this amazing bath bomb into your life. Beautiful Day is a stimulating blend of Citrus, including Grapefruit, Lemon and Lime, with hints of fresh Cucumber and Jasmine, and a touch of Pineapple, Blackberry and Champagne.</p>
-</div>
+
+
 
 </article>
 		
