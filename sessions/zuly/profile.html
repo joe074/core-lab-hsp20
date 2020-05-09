@@ -30,7 +30,7 @@
 
 <div class="profile-stats1">
 <span class="profile-stat-count"> 30
- &nbsp &nbsp &nbsp  &nbsp 
+ &nbsp &nbsp &nbsp  &nbsp &nbsp 
 58 </span>
 <br>
 </div>
@@ -44,39 +44,41 @@ Followers  &nbsp Following
 
 	<h3> My Videos </h3>
 <div class='scroll'>
-	<div class='card'><h1>Card 1</h1></div>
-	<div class='card'><h1>Card 2</h1></div>
-	<div class='card'><h1>Card 3</h1></div>
-	<div class='card'><h1>Card 4</h1></div>
-	<div class='card'><h1>Card 5</h1></div>
+	<div class='card'><img src="https://i.ytimg.com/vi/BlaGD6ZlWs0/maxresdefault.jpg"></div>
+  <div class='card'><img src="https://i.ytimg.com/vi/28hsxRS7T7U/maxresdefault.jpg"><h1>Card 2</h1></div>
+	<p class="vid1"> Bazzi Ukulele tutorial   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Bury a Friend Ukelele Tutorial</p>
 </div>
 
 
 <h3>Liked Videos</h3>
 <div class='scroll'>
-	<div class='card'><h1>Card 1</h1></div>
-	<div class='card'><h1>Card 2</h1></div>
-	<div class='card'><h1>Card 3</h1></div>
-	<div class='card'><h1>Card 4</h1></div>
-	<div class='card'><h1>Card 5</h1></div>
+	<div class='card'><img src="2.JPG"><h1>Card 1</h1></div>
+	<div class='card'><img src="1.JPG"><h1>Card 2</h1></div>
+	<div class='card'><img src="5.JPG"><h1>Card 3</h1></div>
+	<div class='card'><img src="3.JPG"><h1>Card 4</h1></div>
+  <p class="vid1"> Sibling Q & A  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  la vie en rose - edith piaf  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Hold on (cover) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Adele - Someone Like You &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
 </div>
 
 	<h3> Recently Watched </h3>
 <div class='scroll'>
-	<div class='card'><h1>Card 1</h1></div>
-	<div class='card'><h1>Card 2</h1></div>
-	<div class='card'><h1>Card 3</h1></div>
-	<div class='card'><h1>Card 4</h1></div>
-	<div class='card'><h1>Card 5</h1></div>
+	
+
+	<div class='card'><img src="3.JPG"><h1>Card 2</h1></div>
+	<div class='card'><img src="6.JPG"><h1>Card 3</h1></div>
+	<div class='card'><img src="1.JPG"><h1>Card 4</h1></div>
+	<div class='card'><img src="2.JPG"><h1>Card 5</h1></div>
+  <p class="vid1">Adele - Someone Like You &nbsp &nbsp  &nbsp &nbsp &nbsp Ferre Gola - Home Acoustique   &nbsp &nbsp &nbsp &nbsp &nbsp la vie en rose - edith piaf &nbsp &nbsp  &nbsp &nbsp &nbsp Sibling Q & A</p>
 </div>
 
-<div class="bar"> </div>
-     &nbsp &nbsp &nbsp<div class="home"><i class="fas fa-home"></i></div> &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp 
-      <div class="calendar"><i class="far fa-calendar"></i></div> &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp &nbsp &nbsp 
-      <div class="live"><i class="fas fa-video"></i></div> &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp 
-      <a href="search.html">
-       <div class="search"><i class="fas fa-search"></i></div> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp &nbsp </a>
-       <div class="profile"><i class="far fa-user-circle"></i></div>
+
+ <div class="bar"> </div>
+ &nbsp &nbsp 
+       <a href="index.html" style="text-decoration: none; color:white;"> <div class="home"><i class="fas fa-home"></i></div></a> &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp 
+      <a href="indexcal.html" style="text-decoration: none; color:white;"><div class="calendar"><i class="far fa-calendar"></i></div></a> &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp &nbsp &nbsp 
+      <a href="index_live.html" style="text-decoration: none; color:white;"><div class="live"><i class="fas fa-video"></i></div></a> &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp 
+      <a href="search.html" style="text-decoration: none; color:white;"> <div class="search"><i class="fas fa-search"></i></div></a> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp &nbsp 
+      <a href="profile.html" style="text-decoration: none; color:white;"> 
+       <div class="profile"><i class="far fa-user-circle"></i></div></a>
    
 
 
@@ -92,6 +94,17 @@ body {
   font-weight:normal;
   margin-top: 20px;
 }
+
+p {
+  color:white;
+  font-size:10px;
+}
+
+.card img{ 
+width:100%;
+height:100%;
+ }
+
 
 .image-cropper {
   width:100px;
@@ -142,6 +155,7 @@ body {
   color:#E99797;
   font-size:24px;
    display: inline-block;
+   margin-left:-2%;
 
 }
 
@@ -161,11 +175,13 @@ h1 {
   
 	padding:5%;
 	overflow-x: scroll;
-    overflow-y: hidden;
+    
     white-space: nowrap;
+    margin-bottom:-10%;
 }
 
 .card {
+
 	text-align:center;
 	font-weight:normal;
 	font-family:'Helvetica Neue', sans-serif;
@@ -210,12 +226,12 @@ h3 {
 .bar {
   width:100%;
   height:50px;
-  background-color:white;
-  opacity:0.25;
+  background-color:#6C7182;
  /* z-index:-1;*/
   position:fixed;
   bottom:0px;
   right:0px;
+
 
 }
 
@@ -268,8 +284,16 @@ scale:160%;
 }
 
 
+.vid1 {
+  margin-top:3%;
+  margin-left:3%;
+    font-family: Helvetica;
+  font-size: 10px;
+  color: #F9DEC9;
+  font-weight: lighter;
+  letter-spacing: 1px;
 
-
+}
 
 
 </style>

@@ -1,0 +1,204 @@
+
+/* Colors{
+ color:  #3A405A; dark-blue
+ color: #AEC5EB; purple-blue
+ color: #F9DEC9; very light orange/ cream
+ color:#E99797; red
+ color:#AEC5EB; light-blue
+ color:#CCECEB; blue-green
+  } */
+
+body {
+  font-family: 'futura', sans-serif;
+  margin: 2em;
+  background-color: #3A405A;
+  /*overflow: hidden*/
+}
+
+/*h1 {
+  font-family:'hobo Std', sans-serif;
+  font-style: italic;
+  color: #373fff; 
+  font-size: 60px;
+  padding-left: 70px;
+  letter-spacing:-7px;
+  margin-top: 260px;
+}*/ 
+
+.content-container{
+  display:grid;
+  grid-template-columns: 2fr ;
+  grid-auto-rows:min-content;
+  grid-gap:1rem;
+}
+
+.frame {
+	position: relative;
+	border:solid #F9DEC9 2px;
+	border-radius:25px;
+	height:600px;
+}
+/*
+.dot {
+  height: 60px;
+  width: 60px;
+  background-color: #F9DEC9;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:133px;
+  margin-top:500px;
+  position:fixed;
+}
+
+.dot2 {
+  height: 70px;
+  width: 70px;
+  border: solid #F9DEC9;
+  border-radius: 50%;
+  display: inline-block;
+ margin-left:127px;
+ margin-top:-125px;
+ position:fixed;
+}*/
+
+
+h1 {
+ /* grid-column: 1 / 2;*/
+  margin:0;
+  font-family:'hobo Std', sans-serif;
+  font-style: italic;
+  color: #373fff; 
+  font-size: 50px;
+  letter-spacing:-5px;
+  /*position:fixed;*/
+  text-align:center;
+}
+
+h2{
+/*grid-column: 1 / 2;*/
+font-family: 'futura', sans-serif;	
+font-size: 17px;
+font-style: bold;
+color:#E99797;
+text-align:center;
+letter-spacing:2px;
+}
+
+h3 {
+font-family: 'futura', sans-serif;
+/*grid-column: 1 / 2;	*/
+color:#E99797;
+font-size: 14px;
+letter-spacing:2px;
+text-align: left;
+}
+
+h4 {
+font-family: 'futura', sans-serif;
+color:#3A405A;
+font-size: 14px;
+/*letter-spacing:2px;*/
+text-align: center;
+position:relative;
+bottom:10px;
+
+}
+
+.top-nav{
+	text-align: center;
+}
+
+.liveicon{
+	display:inline-block;
+	color:#F9DEC9;
+	scale:120%;
+	left
+}
+
+
+.color1 {
+  color:white;
+}
+.color2 {
+  color: #AEC5EB;
+}
+.color3 {
+  color: #F9DEC9;
+}
+.color4 {
+  color:#E99797;
+}
+
+.bar {
+  width:100%;
+  height:50px;
+  background-color:white;
+  opacity:0.25;
+ /* z-index:-1;*/
+  position:fixed;
+  bottom:0px;
+  right:0px;
+
+}
+
+
+.home{
+display:inline-block;
+color:white;
+scale:160%;
+ position:fixed;
+  bottom:13px;
+ /* right:0px;*/
+/* opacity:1.5;*/
+}
+
+.calendar{
+display:inline-block;
+color:white;
+scale:160%;
+ position:fixed;
+  bottom:13px;
+  /*right:13px;*/
+}
+
+.live{
+display:inline-block;
+color:white;
+scale:160%;
+ position:fixed;
+  bottom:13px;
+
+}
+
+.search{
+display:inline-block;
+color:white;
+scale:160%;
+  position:fixed;
+  bottom:13px;
+
+}
+
+.profile{
+display:inline-block;
+color:white;
+scale:160%;
+ position:fixed;
+  bottom:13px;
+}
+
+video{
+/*   display: none; */
+width:100%;
+height:600px;
+border-radius:25px;
+/**/
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,857 @@
+/* Colors{
+ color:  #3A405A; dark-blue
+ color: #AEC5EB; purple-blue
+ color: #F9DEC9; very light orange/ cream
+ color:#E99797; red
+ color:#AEC5EB; light-blue
+ color:#CCECEB; blue-green
+  } */
+
+body {
+  font-family: 'futura', sans-serif;
+  margin: 2em;
+  background-color: #3A405A;
+  overflow: hidden
+}
+
+h1 {
+  font-family: 'hobo Std', sans-serif;
+  font-style: italic;
+  color: #373fff;
+  font-size: 60px;
+  padding-left: 70px;
+  letter-spacing: -7px;
+  margin: 310px 0px 8px 0px;
+}
+
+.color1 {
+  color: white;
+}
+
+.color2 {
+  color: #AEC5EB;
+}
+
+.color3 {
+  color: #F9DEC9;
+}
+
+.color4 {
+  color: #E99797;
+}
+
+.main {
+  font-family: futura;
+}
+
+input[type=text] {
+  width: 55%;
+  border: 5px solid white;
+  border-radius: 6px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  margin-left: 40px;
+  box-sizing: border-box;
+  transition: .3s;
+  display: inline-block;
+}
+
+input[type=text]:focus {
+  border-color: #AEC5EB;
+  box-shadow: 0 0 8px 0 #AEC5EB;
+}
+
+.button {
+  font-size: 14px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 8px;
+  background-color: #AEC5EB;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  opacity: 0.25;
+  /* z-index:-1;*/
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+.home {
+  display: inline-block;
+  color: white;
+  scale: 160%;
+  position: fixed;
+  bottom: 13px;
+  /* right:0px;*/
+  /* opacity:1.5;*/
+}
+
+.calendar {
+  display: inline-block;
+  color: white;
+  scale: 160%;
+  position: fixed;
+  bottom: 13px;
+  /*right:13px;*/
+}
+
+.live {
+  display: inline-block;
+  color: white;
+  scale: 160%;
+  position: fixed;
+  bottom: 13px;
+
+}
+
+.search {
+  display: inline-block;
+  color: white;
+  scale: 160%;
+  position: fixed;
+  bottom: 13px;
+
+}
+
+.profile {
+  display: inline-block;
+  color: white;
+  scale: 160%;
+  position: fixed;
+  bottom: 13px;
+}
+
+.mediaViewInfo {
+  --web-scale-on-resize: 375px x 812px;
+  --web-enable-deep-linking: true;
+}
+
+:root {
+  --web-view-ids: iPhone_X;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+#iPhone_X_XS_11_Pro___2 {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  background-color: rgba(58, 64, 90, 1);
+  overflow: hidden;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-target: iPhone_X;
+  cursor: pointer;
+  --web-view-name: iPhone_X;
+  --web-view-id: iPhone_X;
+  --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+.Line_1 {
+  overflow: visible;
+  position: absolute;
+  width: 305px;
+  height: 1px;
+  left: 33.5px;
+  top: 134.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Add {
+  position: absolute;
+  width: 15.676px;
+  height: 15.676px;
+  left: 41.62px;
+  top: 111px;
+  overflow: visible;
+}
+
+#Union_1 {
+  position: absolute;
+  width: 15.676px;
+  height: 15.676px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+.Rectangle_2 {
+  position: absolute;
+  overflow: visible;
+  width: 1.96px;
+  height: 15.676px;
+  left: 6.858px;
+  top: 0px;
+}
+
+.Rectangle_3 {
+  width: 1.96px;
+  height: 15.676px;
+  position: absolute;
+  overflow: visible;
+  transform: translate(0px, 0px) matrix(1, 0, 0, 1, 6.8584, 0) rotate(90deg);
+  transform-origin: center;
+}
+
+#Make_your_interests_select_you {
+  position: absolute;
+  left: 73px;
+  top: 114px;
+  overflow: visible;
+  width: 250px;
+  height: 13px;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(249, 222, 201, 1);
+}
+
+#Music {
+  position: absolute;
+  width: 116px;
+  height: 141px;
+  left: 224px;
+  top: 270px;
+  overflow: visible;
+}
+
+#Rectangle_40 {
+  opacity: 0.302;
+}
+
+.Rectangle_40 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 116px;
+  height: 141px;
+  left: 14px;
+  top: 11px;
+}
+
+.Rectangle_17 {
+  position: absolute;
+  overflow: visible;
+  width: 116px;
+  height: 141px;
+  left: 0px;
+  top: 0px;
+}
+
+#Mask_Group_1 {
+  position: absolute;
+  width: 112px;
+  height: 137px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Music_ {
+  position: absolute;
+  left: 12px;
+  top: 122px;
+  overflow: visible;
+  width: 27px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#enter_button {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 299px;
+  top: 106px;
+  overflow: visible;
+}
+
+.Ellipse_1 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 26px;
+  height: 26px;
+  left: 0px;
+  top: 0px;
+}
+
+#Forward_arrow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 4.62px;
+  top: 5px;
+  overflow: visible;
+}
+
+.Path_10 {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Cooking {
+  position: absolute;
+  width: 164px;
+  height: 63px;
+  left: 38px;
+  top: 430px;
+  overflow: visible;
+}
+
+#Rectangle_22 {
+  opacity: 0.152;
+}
+
+.Rectangle_22 {
+  position: absolute;
+  overflow: visible;
+  width: 164px;
+  height: 63px;
+  left: 0px;
+  top: 0px;
+}
+
+#Rectangle_43 {
+  opacity: 0.152;
+}
+
+.Rectangle_43 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 164px;
+  height: 63px;
+  left: 9px;
+  top: 9px;
+}
+
+#Mask_Group_2 {
+  position: absolute;
+  width: 160px;
+  height: 59px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Cooking_bh {
+  position: absolute;
+  left: 8px;
+  top: 47px;
+  overflow: visible;
+  width: 39px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Health {
+  position: absolute;
+  width: 95px;
+  height: 103px;
+  left: 33px;
+  top: 150px;
+  overflow: visible;
+}
+
+#Rectangle_35 {
+  opacity: 0.303;
+}
+
+.Rectangle_35 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  height: 103px;
+  left: 9px;
+  top: 6px;
+}
+
+.Rectangle_12 {
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  height: 103px;
+  left: 0px;
+  top: 0px;
+}
+
+#Mask_Group_3 {
+  position: absolute;
+  width: 91px;
+  height: 99px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Health_bo {
+  position: absolute;
+  left: 10px;
+  top: 85px;
+  overflow: visible;
+  width: 31px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Rectangle_42 {
+  opacity: 0.299;
+}
+
+.Rectangle_42 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  height: 48px;
+  left: 114px;
+  top: 397px;
+}
+
+#Game {
+  position: absolute;
+  width: 95px;
+  height: 48px;
+  left: 104px;
+  top: 363px;
+  overflow: visible;
+}
+
+#Rectangle_71 {
+  opacity: 0.385;
+}
+
+.Rectangle_71 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  height: 48px;
+  left: 8px;
+  top: 8px;
+}
+
+#Rectangle_19 {
+  opacity: 0.51;
+}
+
+.Rectangle_19 {
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+}
+
+#Rectangle_28 {
+  opacity: 0.51;
+}
+
+.Rectangle_28 {
+  position: absolute;
+  overflow: visible;
+  width: 95px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+}
+
+#Mask_Group_4 {
+  position: absolute;
+  width: 91px;
+  height: 44px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Game_bx {
+  position: absolute;
+  left: 12px;
+  top: 31px;
+  overflow: visible;
+  width: 29px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Education {
+  position: absolute;
+  width: 76px;
+  height: 63px;
+  left: 224px;
+  top: 430px;
+  overflow: visible;
+}
+
+#Rectangle_23 {
+  opacity: 0.152;
+}
+
+.Rectangle_23 {
+  position: absolute;
+  overflow: visible;
+  width: 76px;
+  height: 63px;
+  left: 0px;
+  top: 0px;
+}
+
+#Rectangle_44 {
+  opacity: 0.152;
+}
+
+.Rectangle_44 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 76px;
+  height: 63px;
+  left: 12px;
+  top: 9px;
+}
+
+#Mask_Group_5 {
+  position: absolute;
+  width: 72px;
+  height: 59px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Education_b {
+  position: absolute;
+  left: 9px;
+  top: 46px;
+  overflow: visible;
+  width: 46px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Comedy {
+  position: absolute;
+  width: 112px;
+  height: 124px;
+  left: 38px;
+  top: 513px;
+  overflow: visible;
+}
+
+#Rectangle_45 {
+  opacity: 0.152;
+}
+
+.Rectangle_45 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 124px;
+  left: 10px;
+  top: 9px;
+}
+
+#Rectangle_24 {
+  opacity: 0.152;
+}
+
+.Rectangle_24 {
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+}
+
+#Mask_Group_6 {
+  position: absolute;
+  width: 108px;
+  height: 119px;
+  left: 2px;
+  top: 3px;
+  overflow: visible;
+}
+
+#Comedy_cb {
+  position: absolute;
+  left: 9px;
+  top: 106px;
+  overflow: visible;
+  width: 39px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Dance {
+  position: absolute;
+  width: 66px;
+  height: 89px;
+  left: 71px;
+  top: 270px;
+  overflow: visible;
+}
+
+#Rectangle_15 {
+  opacity: 0.51;
+}
+
+.Rectangle_15 {
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+#Rectangle_41 {
+  opacity: 0.298;
+}
+
+.Rectangle_41 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  height: 80px;
+  left: 9px;
+  top: 9px;
+}
+
+#Mask_Group_7 {
+  position: absolute;
+  width: 53px;
+  height: 76px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Dance_ci {
+  position: absolute;
+  left: 9px;
+  top: 61px;
+  overflow: visible;
+  width: 30px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Fitness {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 149px;
+  top: 202px;
+  overflow: visible;
+}
+
+.Rectangle_13 {
+  position: absolute;
+  overflow: visible;
+  width: 52px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+}
+
+#Rectangle_36 {
+  opacity: 0.302;
+}
+
+.Rectangle_36 {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 52px;
+  height: 52px;
+  left: 5px;
+  top: 5px;
+}
+
+#Mask_Group_8 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+
+#Fitness_cp {
+  position: absolute;
+  left: 12px;
+  top: 37px;
+  overflow: visible;
+  width: 31px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Futura;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#Rectangle_37 {
+  opacity: 0.299;
+}
+
+.Rectangle_37 {
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 65px;
+  left: 224px;
+  top: 565px;
+}
+
+#Rectangle_38 {
+  opacity: 0.154;
+}
+
+.Rectangle_38 {
+  position: absolute;
+  overflow: visible;
+  width: 71px;
+  height: 40px;
+  left: 39px;
+  top: 656px;
+}
+
+#Rectangle_39 {
+  opacity: 0.102;
+}
+
+.Rectangle_39 {
+  position: absolute;
+  overflow: visible;
+  width: 74px;
+  height: 78px;
+  left: 39px;
+  top: 712px;
+}
+
+#Rectangle_46 {
+  opacity: 0.047;
+}
+
+.Rectangle_46 {
+  position: absolute;
+  overflow: visible;
+  width: 74px;
+  height: 121px;
+  left: 273px;
+  top: 811px;
+}
+
+#Rectangle_47 {
+  opacity: 0.088;
+}
+
+.Rectangle_47 {
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 65px;
+  left: 131px;
+  top: 811px;
+}
+
+#ZULY {
+  position: absolute;
+  left: 24px;
+  top: 28px;
+  overflow: visible;
+  width: 133px;
+  height: 54px;
+  text-align: left;
+  font-family: Hobo Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.sure.box {
+  opacity: 0.6;
+}
